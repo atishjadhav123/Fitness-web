@@ -4,19 +4,13 @@ import Footer from "../peges/Footer"
 import Home from "../peges/Home"
 import Services from "../peges/Services"
 import Testimonials from "../peges/Testimonials"
+import download from '../images/skilhub.jpg'
 
 const Navbar = () => {
     return <>
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid gap-5">
-                <img
-                    style={{ height: 30, width: 100 }}
-                    loading="lazy"
-                    decoding="async"
-                    className="gutenverse-image-box-filled"
-                    src="https://fse.jegtheme.com/treina/wp-content/uploads/sites/37/2025/01/treina-logo.webp"
-                    alt="Logo"
-                />
+                <img src={download} alt="" style={{ height: 50, width: 100, }} />
                 <button
                     className="navbar-toggler"
                     type="button"
